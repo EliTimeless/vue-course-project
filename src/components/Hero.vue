@@ -1,6 +1,7 @@
 <script setup>
 import { defineProps } from 'vue'
 import { RouterLink } from 'vue-router'
+import bgImage from '@/assets/img/hogwarts-wallpaper.jpg'
 
 defineProps({
   title: {
@@ -13,7 +14,7 @@ defineProps({
 <template>
   <section
     class="w-full h-screen bg-center bg-cover"
-    style="background-image: url('/src/assets/img/hogwarts-wallpaper.jpg')"
+    :style="{ backgroundImage: `url(${bgImage})` }"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center h-full">
       <div class="text-center">

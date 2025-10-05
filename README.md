@@ -1,38 +1,87 @@
-# vue-course-project
+Vue Potter Project
 
-This template should help get you started developing with Vue 3 in Vite.
+A frontend project built with Vue 3 that displays characters, houses, and spells from the Harry Potter universe using the Potterhead API.
 
-## Recommended IDE Setup
+🌟 Project Description
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The project showcases various elements from the Harry Potter world, including:
 
-## Recommended Browser Setup
+Characters with their details (name, house, blood status, etc.)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Spells used in the series
 
-## Customize configuration
+Movies with their details
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Users can add their own custom characters
 
-## Project Setup
+All data is fetched from the Potterhead API using Fetch, and user-added characters are displayed alongside the original ones. The interface is modern, responsive, and styled with Tailwind CSS. Navigation between pages is implemented using Vue Router with RouterLink.
 
-```sh
+🌐 Demo
+
+Check out the live demo here:
+https://steady-caramel-f66da8.netlify.app/
+
+
+🚀 Features
+
+Display Harry Potter characters, houses, and spells
+
+Add your own custom characters
+
+Component-based architecture with Vue 3
+
+Routing between pages with Vue Router (RouterLink)
+
+Fast development with Vite
+
+Styled using Tailwind CSS
+
+API integration using Fetch
+
+⚡ Planned Features
+
+Search characters by name or house
+
+Search spells by name or effect
+
+Filter characters by house, blood status, or role (student/teacher/etc.)
+
+Save custom characters in localStorage for persistence
+
+🔧 Installation
+
+Clone the repository:
+
+git clone https://github.com/EliTimeless/vue-course-project.git
+cd vue-course-project
+
+
+Install dependencies:
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
 
-```sh
+Start the development server:
+
 npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+Open your browser and go to:
+http://localhost:3000
+
+
+🛠️ Technologies Used
+
+Vue 3 – frontend framework
+
+Vue Router – for routing and navigation (RouterLink)
+
+Vite – fast bundler and development server
+
+Tailwind CSS – utility-first CSS framework
+
+Fetch API – for fetching data from Potterhead API
+
+📄 License
+
+This project is licensed under the MIT License.

@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+body {
+  background-color: #402323;
+}
+
+--root {
+  --navbar-text-color: #303c43;
+  --secondary-color: #ead4ff;
+  --bg-paginator-color: #754c9b;
+  --bg-hero-color: #aea0bb;
+  --bg-color: #c38383;
+  --bg-primary-color: #402323;
+  --text-color: #fbdcdc;
+  --shadow-color: #1c0f0f;
+  --gradient-heading: #7d3bba, #d45858, #1c9ae3;
+}

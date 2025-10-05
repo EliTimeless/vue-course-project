@@ -39,8 +39,8 @@ const handleAddCharacter = (character) => {
 </script>
 
 <template>
-  <div class="w-[800px] h-[800px] p-5 mx-auto bg-[#402323] text-[#fbdcdc]">
-    <h1 class="text-7xl text-[#fbdcdc] font-bold m-2 p-2 text-center">Characters</h1>
+  <div class="w-[800px] h-[800px] p-4 mx-auto bg-[#402323] text-[#fbdcdc]">
+    <h1 class="text-7xl text-[#fbdcdc] font-bold text-center">Characters</h1>
     <div class="m-4">
       <button
         command="show-modal"
